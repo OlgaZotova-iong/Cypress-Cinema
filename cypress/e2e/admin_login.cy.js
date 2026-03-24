@@ -21,7 +21,7 @@ describe('Авторизация в админ-панели', () => {
     cy.get(selectors.admin.email).type(data.sadPath.email);
     cy.get(selectors.admin.password).type(data.sadPath.password);
     cy.get(selectors.admin.loginButton).click();
-    cy.contains('Ошибка авторизации!').should('be.visible'); // В приложении обычно есть алерт или текст
+    cy.contains('Ошибка авторизации!').should('be.visible'); 
   });
 });
 
