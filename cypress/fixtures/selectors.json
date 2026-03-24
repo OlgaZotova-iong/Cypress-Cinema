@@ -1,0 +1,27 @@
+{
+  "admin": {
+    "email": "input[name='email']",
+    "password": "input[name='password']",
+    "loginButton": ".login__button",
+    "hallItems": ".conf-step__list li"
+  },
+  "mainPage": {
+    "navDays": ".page-nav__day",
+    "navDayToday": ".page-nav__day_today",
+    "movieTitle": ".movie__title",
+    "seanceTime": ".movie-seances__time",
+    "seanceHall": ".movie-seances__hall-title",
+    "headerTitle": ".page-header__title"
+  },
+  "booking": {
+    "chair": ".buying-scheme__chair",
+    "chairStandart": ".buying-scheme__chair_standart",
+    "chairVip": ".buying-scheme__chair_vip",
+    "chairTaken": ".buying-scheme__chair_taken",
+    "acceptButton": ".acceptin-button",
+    "ticketTitle": ".ticket__title",
+    "qrCode": ".ticket__info-qr"
+  }
+}
+
+

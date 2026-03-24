@@ -1,0 +1,16 @@
+{
+  "name": "cypress-cinema",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "Olga Zotova",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run",
+  "cypress:open": "cypress open"
+  },
+  "devDependencies": {
+    "cypress": "^15.12.0"
+  }
+}
