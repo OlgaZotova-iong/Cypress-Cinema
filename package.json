@@ -7,10 +7,12 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "test": "cypress run",
-  "cypress:open": "cypress open"
+    "test": "cypress run --record --key 2be23c82-34ce-42e3-ad30-1e72d62dcaf8",
+    "cypress:open": "cypress open",
+    "test:local": "cypress run"
   },
   "devDependencies": {
     "cypress": "^15.12.0"
   }
 }
+
